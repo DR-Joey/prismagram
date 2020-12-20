@@ -10,3 +10,4 @@ const schema = makeExecutableSchema({
   typeDefs: mergeTypeDefs(allTypes),
   resolvers: mergeResolvers(allResolvers),
 });
+export default schema;
